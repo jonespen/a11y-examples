@@ -1,6 +1,6 @@
 <header class="site-header" role="banner">
 	{% if page.url == "/index.html" %}
-		<h1 class="site-title"><a href="/">{{ site.name }}</a></h1>
+		<h1 class="site-title"><a href="{{ site.baseurl }}">{{ site.name }}</a></h1>
 	{% else %}
 		<a class="site-title" href="/">{{ site.name }}</a>
 	{% endif %}
