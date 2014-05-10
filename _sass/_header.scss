@@ -1,0 +1,18 @@
+
+.site-title {
+	margin: $line-height-computed / 2 0 $line-height-computed / 1;
+	display: block;
+	font-size: 20px;
+	line-height: 24px;
+	font-family: $font-family-sans-serif;
+	font-weight: normal;
+	&, a {
+		color: $text-color;
+	}
+}
+
+.site-description {
+	@extend %mark-after;
+	font-style: italic;
+	margin-bottom: $line-height-computed * 2;
+}

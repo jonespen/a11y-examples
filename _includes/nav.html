@@ -1,0 +1,12 @@
+<nav role="navigation">
+	<h2 class="sr-only">Examples</h2>
+	<ul class="nav list-unstyled">
+	{% for page in site.pages %}
+		{% if page.layout == "page" %}
+		<li>
+			<a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+		</li>
+		{% endif %}
+	{% endfor %}
+	</ul>
+</nav>

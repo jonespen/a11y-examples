@@ -1,0 +1,28 @@
+---
+---
+
+@import "bootstrap.scss";
+
+@import "pygments-github";
+@import "mark";
+@import "header";
+@import "type";
+@import "nav";
+@import "footer";
+
+body {
+	margin-top: $line-height-computed;
+}
+
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 950px; /* or 950px */
+}
+
+main a {
+	text-decoration: underline;
+	&:hover {
+		text-decoration: none;
+	}
+}

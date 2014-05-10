@@ -1,0 +1,10 @@
+.nav {
+	a {
+		border-bottom: 1px solid $nav-tabs-border-color;
+		margin-bottom: $line-height-computed / 2;
+		&:hover {
+			text-decoration: none;
+			border-color: $brand-primary;
+		}
+	}
+}

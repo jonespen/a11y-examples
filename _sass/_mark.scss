@@ -1,0 +1,25 @@
+%mark {
+	content: "";
+	width: 30px;
+	height: 3px;
+	background: $gray-lighter;
+	position: absolute;
+	left: 0;
+	bottom: -#{$line-height-computed};
+}
+
+%mark-after {
+	position: relative;
+	&:after {
+		@extend %mark;
+		bottom: -#{$line-height-computed};
+	}
+}
+
+%mark-before {
+	position: relative;
+	&:after {
+		@extend %mark;
+		top: -#{$line-height-computed};
+	}
+}

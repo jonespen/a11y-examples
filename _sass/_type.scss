@@ -1,0 +1,7 @@
+.post-header {
+	span, a {
+		display: inline-block;
+		border-bottom: 3px solid $gray-lighter;
+		padding-bottom: $line-height-computed / 4;
+	}
+}

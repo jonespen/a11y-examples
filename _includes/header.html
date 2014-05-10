@@ -1,0 +1,10 @@
+<header class="site-header" role="banner">
+	{% if page.url == "/index.html" %}
+		<h1 class="site-title"><a href="/">{{ site.name }}</a></h1>
+	{% else %}
+		<a class="site-title" href="/">{{ site.name }}</a>
+	{% endif %}
+	<p class="site-description">{{ site.description }}</p>
+
+	{% include nav.html %}
+</header>
