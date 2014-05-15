@@ -1,10 +1,10 @@
 # Site settings
 name: a11y examples
 title: a11y examples
-email: jonespe@gmai.com
+email: jonespe@gmail.com
 description: "A bunch of HTML accessibility (a11y) video examples using different screen readers."
 baseurl: "/a11y-examples"
-url: "http://yourdomain.com"
+url: "http://jonespen.github.io"
 
 # Build settings
 markdown: kramdown
